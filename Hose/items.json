@@ -1,0 +1,327 @@
+{
+    "id": "seAb9f-U5AqQ00",
+    "code": "seAb9f-U5AqQ00",
+    "form": {
+        "E_system_发票明细_code": "seAb9f-U5AqQ00",
+        "E_system_发票明细_name": "*餐饮服务*餐饮费",
+        "E_system_发票明细_单价": {
+            "standard": "73.50",
+            "standardUnit": "元",
+            "standardScale": "2",
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "E_system_发票明细_数量": "1",
+        "E_system_发票明细_税率": "免税",
+        "E_system_发票明细_税额": null,
+        "E_system_发票明细_金额": {
+            "standard": "73.50",
+            "standardUnit": "元",
+            "standardScale": "2",
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        }
+    },
+    "name": "*餐饮服务*餐饮费",
+    "index": 0,
+    "active": false,
+    "source": "WRITE",
+    "ownerId": "",
+    "version": 7,
+    "visible": true,
+    "entityId": "system_发票明细",
+    "masterId": "NiI5HFaVHs7Q00:037001900104:64204729",
+    "sourceId": "",
+    "useCount": 0,
+    "nameSpell": "*CANYINFUWU*CANYINFEI",
+    "createTime": 1592739073840,
+    "flowCounts": {},
+    "operatorId": "NiI5HFaVHs7Q00:152666095421496156",
+    "platformId": "system_发票平台",
+    "totalCount": 1,
+    "updateTime": 1592739073840,
+    "visibility": {
+        "roles": null,
+        "staffs": null,
+        "departments": null,
+        "fullVisible": true,
+        "departmentsIncludeChildren": true
+    },
+    "ledgerAmount": null,
+    "corporationId": "NiI5HFaVHs7Q00",
+    "invoiceMessage": "",
+    "ledgerAmountModel": null
+}
+
+
+
+{
+    "itemIds": [
+        "stEbbMW1yUmY00"
+    ],
+    "taxRate": null,
+    "invoiceId": "NiI5HFaVHs7Q00:037001900104:79465340",
+    "taxAmount": {
+        "standard": "0",
+        "standardUnit": "元",
+        "standardScale": "2",
+        "standardSymbol": "¥",
+        "standardNumCode": "156",
+        "standardStrCode": "CNY"
+    }
+}
+
+{
+    "city": "[{\"key\":\"1582\",\"label\":\"山东省/日照市/日照市区\"}]",
+    "sense": "",
+    "amount": {
+        "standard": "258",
+        "standardUnit": "元",
+        "standardScale": 2,
+        "standardSymbol": "¥",
+        "standardNumCode": "156",
+        "standardStrCode": "CNY"
+    },
+    "invoice": "1",
+    "detailId": "nT4b9hoDqsak00",
+    "attachments": [
+        {
+            "key": "image-1592744430599-449.jpg",
+            "fileId": "fO8b9hgR5opA00",
+            "fileName": "image.jpg"
+        }
+    ],
+    "invoiceForm": {
+        "type": "exist",
+        "invoices": [
+            {
+                "itemIds": [
+                    "stEbbMW1yUmY00"
+                ],
+                "taxRate": null,
+                "invoiceId": "NiI5HFaVHs7Q00:037001900104:79465340",
+                "taxAmount": {
+                    "standard": "0",
+                    "standardUnit": "元",
+                    "standardScale": "2",
+                    "standardSymbol": "¥",
+                    "standardNumCode": "156",
+                    "standardStrCode": "CNY"
+                }
+            }
+        ],
+        "attachments": []
+    },
+    "feeDatePeriod": {
+        "end": 1590768000000,
+        "start": 1590681600000
+    },
+    "consumptionReasons": ""
+}
+
+{
+    "feeTypeId": "NiI5HFaVHs7Q00:bus",
+    "feeTypeForm": {
+        "city": "[{\"key\":\"1582\",\"label\":\"山东省/日照市/日照市区\"}]",
+        "sense": "",
+        "amount": {
+            "standard": "258",
+            "standardUnit": "元",
+            "standardScale": 2,
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "invoice": "1",
+        "detailId": "nT4b9hoDqsak00",
+        "attachments": [
+            {
+                "key": "image-1592744430599-449.jpg",
+                "fileId": "fO8b9hgR5opA00",
+                "fileName": "image.jpg"
+            }
+        ],
+        "invoiceForm": {
+            "type": "exist",
+            "invoices": [
+                {
+                    "itemIds": [
+                        "stEbbMW1yUmY00"
+                    ],
+                    "taxRate": null,
+                    "invoiceId": "NiI5HFaVHs7Q00:037001900104:79465340",
+                    "taxAmount": {
+                        "standard": "0",
+                        "standardUnit": "元",
+                        "standardScale": "2",
+                        "standardSymbol": "¥",
+                        "standardNumCode": "156",
+                        "standardStrCode": "CNY"
+                    }
+                }
+            ],
+            "attachments": []
+        },
+        "feeDatePeriod": {
+            "end": 1590768000000,
+            "start": 1590681600000
+        },
+        "consumptionReasons": ""
+    },
+    "specificationId": "NiI5HFaVHs7Q00:bus:expense:53b0172ddd0c35fbbeb515384bf71e3acfcb00d5"
+}
+
+{
+    "feeTypeId": "6-QaxVyFWk9M00",
+    "feeTypeForm": {
+        "sense": "",
+        "amount": {
+            "standard": "58.20",
+            "standardUnit": "元",
+            "standardScale": 2,
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "feeDate": 1590595200000,
+        "invoice": "1",
+        "detailId": "4EUbbMRklAkc00",
+        "attachments": [],
+        "invoiceForm": {
+            "type": "exist",
+            "invoices": [
+                {
+                    "itemIds": [
+                        "GQgb9hvA5stw00"
+                    ],
+                    "taxRate": null,
+                    "invoiceId": "NiI5HFaVHs7Q00:033001900311:32439316",
+                    "taxAmount": {
+                        "standard": "0",
+                        "standardUnit": "元",
+                        "standardScale": "2",
+                        "standardSymbol": "¥",
+                        "standardNumCode": "156",
+                        "standardStrCode": "CNY"
+                    }
+                }
+            ],
+            "attachments": []
+        },
+        "consumptionReasons": "出差疫情地区防护手套"
+    },
+    "specificationId": "6-QaxVyFWk9M00:expense:dd191cd3985baa13535407c07cf9117fc54cd5e9"
+}
+
+{
+    "feeTypeId": "v5o5IZH9BghY00",
+    "feeTypeForm": {
+        "sense": "",
+        "amount": {
+            "standard": "220.00",
+            "standardUnit": "元",
+            "standardScale": 2,
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "toCity": "[{\"key\":\"1582\",\"label\":\"山东省/日照市/日照市区\"}]",
+        "invoice": "4",
+        "detailId": "B7kb9hAaR8rI00",
+        "attachments": [],
+        "invoiceForm": {
+            "type": "exist",
+            "attachments": [
+                {
+                    "key": "image-1592745145767-817.jpg",
+                    "fileId": "",
+                    "fileName": "image.jpg"
+                }
+            ]
+        },
+        "feeDatePeriod": {
+            "end": 1592928000000,
+            "start": 1590681600000
+        },
+        "consumptionReasons": ""
+    },
+    "specificationId": "v5o5IZH9BghY00:expense:ee3e363038c8a29d4a92258e1ad156b6f4dede3a"
+}
+
+{
+    "feeTypeId": "v5o5IZH9BghY00",
+    "feeTypeForm": {
+        "amount": {
+            "standard": "900.00",
+            "standardUnit": "元",
+            "standardScale": 2,
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "toCity": "[{\"key\":\"725\",\"label\":\"黑龙江省/齐齐哈尔市/齐齐哈尔市区\"}]",
+        "invoice": "12",
+        "detailId": "BXYb9hAaR8rM00",
+        "attachments": [],
+        "invoiceForm": {
+            "type": "exist",
+            "attachments": [
+                {
+                    "key": "image-1592745185978-351.jpg",
+                    "fileId": "",
+                    "fileName": "image.jpg"
+                }
+            ]
+        },
+        "feeDatePeriod": {
+            "end": 1592928000000,
+            "start": 1590681600000
+        }
+    },
+    "specificationId": "v5o5IZH9BghY00:expense:ee3e363038c8a29d4a92258e1ad156b6f4dede3a"
+}
+
+{
+    "feeTypeId": "v5o5IZH9BghY00",
+    "feeTypeForm": {
+        "amount": {
+            "standard": "110",
+            "standardUnit": "元",
+            "standardScale": 2,
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "toCity": "[{\"key\":\"1000\",\"label\":\"浙江省/杭州市/杭州市区\"}]",
+        "invoice": "1",
+        "detailId": "7-cb9hAaR8rQ00",
+        "attachments": [],
+        "invoiceForm": {
+            "type": "exist",
+            "invoices": [
+                {
+                    "itemIds": [],
+                    "taxRate": null,
+                    "invoiceId": "NiI5HFaVHs7Q00:033001800311:20390890",
+                    "taxAmount": {
+                        "standard": "0",
+                        "standardUnit": "元",
+                        "standardScale": "2",
+                        "standardSymbol": "¥",
+                        "standardNumCode": "156",
+                        "standardStrCode": "CNY"
+                    }
+                }
+            ],
+            "attachments": []
+        },
+        "feeDatePeriod": {
+            "end": 1590681600000,
+            "start": 1590681600000
+        }
+    },
+    "specificationId": "v5o5IZH9BghY00:expense:ee3e363038c8a29d4a92258e1ad156b6f4dede3a"
+}
+

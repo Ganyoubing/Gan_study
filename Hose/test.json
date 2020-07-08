@@ -1,0 +1,177 @@
+{
+    "id": "-4AaUwqxLwdg00",
+    "form": {
+        "code": "J20000036",
+        "title": "",
+        "loanDate": 1588244460000,
+        "payMoney": {
+            "standard": "5.00",
+            "standardUnit": "元",
+            "standardScale": "2",
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "loanMoney": {
+            "standard": "5.00",
+            "standardUnit": "元",
+            "standardScale": 2,
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "printCount": "0",
+        "printState": "noPrint",
+        "submitDate": 1588244522025,
+        "attachments": [],
+        "description": "",
+        "submitterId": "NAcaRSWibQpc00:YmIaRVkSLIus00",
+        "repaymentDate": 1590836460000,
+        "companyRealPay": {
+            "standard": "0.00",
+            "standardUnit": "元",
+            "standardScale": "2",
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "loanDepartment": "NAcaRSWibQpc00",
+        "specificationId": "q-0aStyQ1Yls00:81d486185f6f6d3f9bcb5d38a2381647f6aeb806"
+    },
+    "logs": [],
+    "state": "draft",
+    "active": true,
+    "actions": {
+        "NAcaRSWibQpc00:YmIaRVkSLIus00": [
+            "freeflow.delete",
+            "freeflow.edit",
+            "freeflow.submit"
+        ]
+    },
+    "ownerId": "NAcaRSWibQpc00:YmIaRVkSLIus00",
+    "version": 1,
+    "flowType": "freeflow",
+    "formType": "loan",
+    "createTime": 1588244522212,
+    "updateTime": 1588244522212,
+    "corporationId": "NAcaRSWibQpc00",
+    "invoiceRemind": false,
+    "ownerDefaultDepartment": "NAcaRSWibQpc00"
+}
+
+
+    {
+    "id": "-4AaUwqxLwdg00",
+    "form": {
+        "code": "J20000036",
+        "title": "",
+        "loanDate": 1588244460000,
+        "payMoney": {
+            "standard": "5.00",
+            "standardUnit": "元",
+            "standardScale": "2",
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "loanMoney": {
+            "standard": "5.00",
+            "standardUnit": "元",
+            "standardScale": 2,
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "printCount": "0",
+        "printState": "noPrint",
+        "submitDate": 1588244522025,
+        "attachments": [],
+        "description": "",
+        "submitterId": "NAcaRSWibQpc00:YmIaRVkSLIus00",
+        "repaymentDate": 1590836460000,
+        "companyRealPay": {
+            "standard": "0.00",
+            "standardUnit": "元",
+            "standardScale": "2",
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "loanDepartment": "NAcaRSWibQpc00",
+        "specificationId": "q-0aStyQ1Yls00:81d486185f6f6d3f9bcb5d38a2381647f6aeb806"
+    },
+    "logs": [],
+    "state": "draft",
+    "active": true,
+    "actions": "\"FdQ9yqB3Vg0400:103528031224331562\": [\"freeflow.delete\",\"freeflow.edit\",\"freeflow.submit\"]",
+    "ownerId": "NAcaRSWibQpc00:YmIaRVkSLIus00",
+    "version": 1,
+    "flowType": "freeflow",
+    "formType": "loan",
+    "createTime": 1588244522212,
+    "updateTime": 1588244522212,
+    "corporationId": "NAcaRSWibQpc00",
+    "invoiceRemind": false,
+    "ownerDefaultDepartment": "NAcaRSWibQpc00"
+}
+
+{
+    "id": "-4AaUwqxLwdg00",
+    "form": {
+        "code": "J20000036",
+        "title": "",
+        "loanDate": 1588244460000,
+        "payMoney": {
+            "standard": "5.00",
+            "standardUnit": "元",
+            "standardScale": "2",
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "loanMoney": {
+            "standard": "5.00",
+            "standardUnit": "元",
+            "standardScale": 2,
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "printCount": "0",
+        "printState": "noPrint",
+        "submitDate": 1588244522025,
+        "attachments": [],
+        "description": "",
+        "submitterId": "NAcaRSWibQpc00:YmIaRVkSLIus00",
+        "repaymentDate": 1590836460000,
+        "companyRealPay": {
+            "standard": "0.00",
+            "standardUnit": "元",
+            "standardScale": "2",
+            "standardSymbol": "¥",
+            "standardNumCode": "156",
+            "standardStrCode": "CNY"
+        },
+        "loanDepartment": "NAcaRSWibQpc00",
+        "specificationId": "q-0aStyQ1Yls00:81d486185f6f6d3f9bcb5d38a2381647f6aeb806"
+    },
+    "logs": [],
+    "state": "draft",
+    "active": true,
+    "actions": {
+        "FdQ9yqB3Vg0400:103528031224331562": [
+            "freeflow.delete",
+            "freeflow.edit",
+            "freeflow.submit"
+        ]
+    },
+    "ownerId": "NAcaRSWibQpc00:YmIaRVkSLIus00",
+    "version": 1,
+    "flowType": "freeflow",
+    "formType": "loan",
+    "createTime": 1588244522212,
+    "updateTime": 1588244522212,
+    "corporationId": "NAcaRSWibQpc00",
+    "invoiceRemind": false,
+    "ownerDefaultDepartment": "NAcaRSWibQpc00"
+}

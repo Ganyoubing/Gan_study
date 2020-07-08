@@ -1,0 +1,2487 @@
+{
+    "count": 4,
+    "items": [
+        {
+            "flow": {
+                "id": "eHEbd-7cvQe400",
+                "state": "approving",
+                "payingFailure": false
+            },
+            "form": {
+                "title": "采购申请，226,800元，7月外设采购计划-增加需求",
+                "type": "requisition",
+                "amount": {
+                    "standard": "226800.00",
+                    "standardUnit": "元",
+                    "standardScale": "2",
+                    "standardSymbol": "¥",
+                    "standardNumCode": "156",
+                    "standardStrCode": "CNY"
+                },
+                "specification": {
+                    "id": "IDY9K5Y8xwbo00:e377a26ff77eaf41e81cd3389f950b0ee6ef16ed",
+                    "pri": 0,
+                    "code": "",
+                    "icon": "#EDico-briefcase",
+                    "name": "采购申请单",
+                    "type": "requisition",
+                    "color": "#1e88e5",
+                    "rules": [],
+                    "active": true,
+                    "configs": [
+                        {
+                            "ability": "erpVoucher",
+                            "voucherNo": "",
+                            "voucherStatus": "",
+                            "voucherCreateTime": 0
+                        },
+                        {
+                            "ability": "flow",
+                            "flowPlanConfigId": "FsYanGvZuwpY00"
+                        },
+                        {
+                            "ability": "print",
+                            "isPrintInvoice": false,
+                            "printTemplateId": "CpU6pJ1Z9UlI00"
+                        },
+                        {
+                            "ability": "requisition",
+                            "feeType": {
+                                "ids": [
+                                    "lDk6xb4uyYbc00",
+                                    "6Y8aX9VzfAno00",
+                                    "4p09T6FjD8nw00",
+                                    "BZI9T6FjD8ns00",
+                                    "WUk9T6FjD8o400",
+                                    "00U9T6FjD8nY00",
+                                    "vqI9T6FjD8nA00",
+                                    "gUM9T6FjD8nU00",
+                                    "5gU9T6TySk8U00",
+                                    "1xQ9T6TySk8Q00",
+                                    "OVw9T6TySk9400",
+                                    "D7oaXaOc6Qog00",
+                                    "khQaXaPeKMnY00",
+                                    "QAs9T6TySk8M00",
+                                    "mFA9T6TySk8Y00",
+                                    "Lt4aXaOc6Qoc00",
+                                    "ynE9T70DN4eQ00",
+                                    "mkwaXaOc6Qo800"
+                                ],
+                                "isAll": false
+                            },
+                            "tripType": {
+                                "ids": [],
+                                "isAll": true
+                            },
+                            "applyRule": {
+                                "rule": "defaultRule",
+                                "notOverIsChecked": false
+                            },
+                            "applyCloseRule": "auto",
+                            "applyContentRule": "auto",
+                            "linkRequisitionInfo": true,
+                            "linkRequisitionControlled": {
+                                "count": 0,
+                                "value": false
+                            }
+                        }
+                    ],
+                    "version": 1,
+                    "editorId": "ebQ6m57V1Q0I00:maoting_cd@keruyun.com",
+                    "nameSpell": "CAIGOUSHENQINGDAN",
+                    "components": [
+                        {
+                            "hide": false,
+                            "type": "text",
+                            "field": "title",
+                            "label": "事由",
+                            "editable": true,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "maxLength": 30,
+                            "minLength": 0,
+                            "placeholder": "请输入事由（30字以内）",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "textarea",
+                            "field": "description",
+                            "label": "详细说明",
+                            "editable": true,
+                            "optional": true,
+                            "priority": null,
+                            "maxLength": 1000,
+                            "minLength": 0,
+                            "placeholder": "请输入描述",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_采购用途",
+                            "label": "采购类型",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择采购类型",
+                            "selectRange": "leaf",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_行政科目",
+                            "label": "行政科目",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": {
+                                "use": true,
+                                "direction": "forward",
+                                "roleDefId": "incaLBEnRc5E00",
+                                "dependenceId": "u_采购用途"
+                            },
+                            "placeholder": "请选择行政科目",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "url": "https://notes.dingtalk.com/doc/1nRzl3ENYlE2kGbx?orgId=2355122",
+                            "type": "annotation",
+                            "label": "点击此处，可查看采购类型及费用类型详细说明",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "TIP：需根据采购类型添加对应的费用明细，可添加多条",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": false,
+                            "type": "requisitionDetails",
+                            "field": "details",
+                            "label": "费用明细",
+                            "editable": true,
+                            "optional": false,
+                            "showType": "LIST",
+                            "dependence": {
+                                "use": true,
+                                "direction": "reverse",
+                                "roleDefId": "A7IaXnylWc0g00",
+                                "dependenceId": "u_采购用途"
+                            },
+                            "visibility": null,
+                            "orderByType": null,
+                            "placeholder": null,
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "isFeeTypeEmpty": true,
+                            "feeTypeImportRuleId": "DEFAULT_ID_ebQ6m57V1Q0I00_requisition",
+                            "visibleStaffSelection": null,
+                            "mustAllFeeTypeCurrencyEqual": false
+                        },
+                        {
+                            "type": "attachments",
+                            "field": "attachments",
+                            "label": "附件",
+                            "editable": true,
+                            "optional": true,
+                            "placeholder": null,
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "如上传EXCEL，需注意表格空行过多可能会导致文件无法预览。（注意去除网格线会导致空白行）",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": true,
+                            "type": "dataLink",
+                            "field": "u_关联供应商",
+                            "label": "关联供应商",
+                            "editable": true,
+                            "filterId": null,
+                            "optional": true,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "placeholder": "请选择关联供应商",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "referenceData": "548e09b899ab0dc6c000",
+                            "showInDetails": false,
+                            "assignmentRule": null,
+                            "isLinkageAssignment": false
+                        },
+                        {
+                            "type": "separator",
+                            "label": "",
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_收件人",
+                            "label": "收件人",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": true,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择收件人",
+                            "selectRange": "leaf",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "lastselect"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "text",
+                            "field": "u_手机",
+                            "label": "联系电话",
+                            "editable": true,
+                            "optional": true,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "maxLength": 14,
+                            "minLength": 0,
+                            "placeholder": "请输入手机",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "text",
+                            "field": "u_详细地址",
+                            "label": "收件地址",
+                            "editable": true,
+                            "optional": true,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "maxLength": 1000,
+                            "minLength": 0,
+                            "placeholder": "请输入详细地址",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "type": "separator",
+                            "label": "",
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_待处理人",
+                            "label": "流程参与人（实际发起付款的人）",
+                            "editable": true,
+                            "multiple": true,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "如果由他人发起用章、无票付款流程请选择对应人员（如无请选本人）",
+                            "selectRange": "leaf",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "如需要别人帮你付款\n1、首先需要请将他添加流程参与人中；（集采相关需总部协助购买的，请选择刘金振、林雪萌！！！）\n2、然后等待申请单走完，在申请事项中进行共享或者转交。",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "linkRequisitionInfo",
+                            "label": "补充申请（存在多个申请单需要一同报销时，关联原申请单）",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": true,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择需要补充申请的原采购单",
+                            "selectRange": "leaf",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "type": "separator",
+                            "label": "",
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "submitterId",
+                            "label": "申请人",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择提交人",
+                            "selectRange": "leaf",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "submitter"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_申请部门",
+                            "label": "申请部门",
+                            "editable": false,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择申请部门",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "submit.department"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "date",
+                            "field": "requisitionDate",
+                            "label": "申请日期",
+                            "editable": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "withTime": false,
+                            "placeholder": null,
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "firstSubmit.date"
+                            },
+                            "showInDetails": false
+                        }
+                    ],
+                    "createTime": 1592457632311,
+                    "originalId": "IDY9K5Y8xwbo00",
+                    "updateTime": 1592457632311,
+                    "corporationId": "ebQ6m57V1Q0I00",
+                    "specificationGroupId": "oR8avl8sQE3s00"
+                },
+                "submitDate": 1594018276948,
+                "code": "S20003200"
+            },
+            "plan": {
+                "type": "NOMAL",
+                "urgent": false
+            },
+            "operator": {
+                "staff": {
+                    "version": 163,
+                    "active": true,
+                    "createTime": 1511768204366,
+                    "updateTime": 1592965466091,
+                    "name": "NG KIN KIAT",
+                    "nameSpell": "NG KIN KIAT",
+                    "code": "HQ083",
+                    "corporationId": "ebQ6m57V1Q0I00",
+                    "userId": "O6ReczkVVroiE",
+                    "id": "ebQ6m57V1Q0I00:162319175543",
+                    "avatar": "https://static-legacy.dingtalk.com/media/lADPD3W5JsEtGRHNAbDNAbA_432_432.jpg",
+                    "email": "kkng@keruyun.com",
+                    "cellphone": null,
+                    "note": null,
+                    "departments": [
+                        "ebQ6m57V1Q0I00:148134825",
+                        "ebQ6m57V1Q0I00:6394852"
+                    ],
+                    "defaultDepartment": "ebQ6m57V1Q0I00:6394852",
+                    "external": false,
+                    "order": {
+                        "ebQ6m57V1Q0I00:82470049": "9043356894480357847"
+                    }
+                },
+                "count": 1,
+                "type": "PERSON"
+            }
+        },
+        {
+            "flow": {
+                "id": "vrEbd_jqfYqM00",
+                "state": "approving",
+                "payingFailure": false
+            },
+            "form": {
+                "title": "付款 30,000元，同云北京域名注销代理费 第二笔款",
+                "type": "loan",
+                "amount": {
+                    "standard": "30000",
+                    "standardUnit": "元",
+                    "standardScale": 2,
+                    "standardSymbol": "¥",
+                    "standardNumCode": "156",
+                    "standardStrCode": "CNY"
+                },
+                "specification": {
+                    "id": "wY09I7CTTUjE00:bfb4cd5c69be29565b5dbb0a88c3106992fed03c",
+                    "pri": 1,
+                    "code": "",
+                    "icon": "#EDico-pack",
+                    "name": "无发票付款",
+                    "type": "loan",
+                    "color": "#00838f",
+                    "rules": [],
+                    "active": true,
+                    "configs": [
+                        {
+                            "ability": "erpVoucher",
+                            "voucherNo": "",
+                            "voucherStatus": "",
+                            "voucherCreateTime": 0
+                        },
+                        {
+                            "ability": "flow",
+                            "flowPlanConfigId": "uIAaojOCeweE00"
+                        },
+                        {
+                            "ability": "print",
+                            "isPrintInvoice": false,
+                            "printTemplateId": "x-46pJ1Z9UlE00"
+                        },
+                        {
+                            "ability": "loan",
+                            "isLimitRepaymentDate": false
+                        },
+                        {
+                            "ability": "pay",
+                            "payMoney": "loanMoney",
+                            "moneyOnly": false,
+                            "detailsOnly": false,
+                            "isRequirePayeeInfo": true,
+                            "allowMultiplePayees": false
+                        }
+                    ],
+                    "version": 1,
+                    "editorId": "ebQ6m57V1Q0I00:maoting_cd@keruyun.com",
+                    "nameSpell": "WUFAPIAOFUKUAN",
+                    "components": [
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "1.无票类付款，需提供无票预付单、合同或结算协议等费用证明材料，扫描后上传附件；",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "2.付款日：每周二、每周五，如遇法定节假日，将顺延至下个付款日；",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "3.付款条件：付款审批流程周一24:00前到达出纳审批节点，周二安排付款。付款审批流程周四24:00前到达出纳审批节点，周五安排付款。 \n",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": false,
+                            "type": "text",
+                            "field": "title",
+                            "label": "事由",
+                            "editable": true,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "maxLength": 30,
+                            "minLength": 0,
+                            "placeholder": "请输入事由（30字以内）",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "textarea",
+                            "field": "description",
+                            "label": "费用说明",
+                            "editable": true,
+                            "optional": true,
+                            "priority": null,
+                            "maxLength": 1000,
+                            "minLength": 0,
+                            "placeholder": "请输入描述",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_付款类型",
+                            "label": "付款类型",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择付款类型",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false
+                        },
+                        {
+                            "url": "https://notes.dingtalk.com/doc/1nRzl3EdrPYPxGbx?orgId=2355122",
+                            "type": "annotation",
+                            "label": "点击查看，付款类型详细说明",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_无票预付类型",
+                            "label": "无票预付类型",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择无票预付类型",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false
+                        },
+                        {
+                            "max": "1000000000.00",
+                            "min": "0.01",
+                            "hide": false,
+                            "type": "money",
+                            "field": "loanMoney",
+                            "label": "申请金额",
+                            "editable": true,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "hiddenRate": false,
+                            "placeholder": "请输入申请金额",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "isShowThousandsSeparator": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "expenseDepartment",
+                            "label": "费用承担部门",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": true,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择费用承担部门",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "submit.department"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "法人实体",
+                            "label": "付款公司",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择付款公司",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "收款信息请新建银行卡账号，目前不支持支付宝支付！！！",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": false,
+                            "type": "payeeInfo",
+                            "field": "payeeId",
+                            "label": "收款信息（收款人、银行卡号、开户行）",
+                            "editable": true,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择收款信息",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "entity.default"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "type": "separator",
+                            "label": "",
+                            "showInDetails": false
+                        },
+                        {
+                            "type": "attachments",
+                            "field": "attachments",
+                            "label": "附件（需上传采购申请单pdf文件）",
+                            "editable": true,
+                            "optional": false,
+                            "placeholder": null,
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "在采购申请单单据页面点击打印可进行下载",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "如上传EXCEL，需注意表格空行过多可能会导致文件无法预览（注意去除网格线会导致空白行）",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": false,
+                            "type": "dataLink",
+                            "field": "u_关联采购申请",
+                            "label": "关联采购",
+                            "editable": true,
+                            "filterId": null,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "placeholder": "请选择关联采购申请",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "referenceData": "c5eb09b89ddca742e000",
+                            "showInDetails": false,
+                            "assignmentRule": null,
+                            "isLinkageAssignment": false
+                        },
+                        {
+                            "type": "separator",
+                            "label": "",
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "submitterId",
+                            "label": "申请人",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择提交人",
+                            "selectRange": "leaf",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "submitter"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "loanDepartment",
+                            "label": "申请部门",
+                            "editable": false,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择借款部门",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "submit.department"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "date",
+                            "field": "loanDate",
+                            "label": "申请日期",
+                            "editable": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "withTime": false,
+                            "placeholder": null,
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "firstSubmit.date"
+                            },
+                            "showInDetails": false
+                        }
+                    ],
+                    "createTime": 1589006519353,
+                    "originalId": "wY09I7CTTUjE00",
+                    "updateTime": 1589006519353,
+                    "corporationId": "ebQ6m57V1Q0I00",
+                    "specificationGroupId": "9eYavl7WjInU00"
+                },
+                "submitDate": 1594013114715,
+                "code": "J20000508"
+            },
+            "plan": {
+                "type": "NOMAL",
+                "urgent": false
+            },
+            "operator": {
+                "staff": {
+                    "version": 163,
+                    "active": true,
+                    "createTime": 1511768204366,
+                    "updateTime": 1592965466091,
+                    "name": "NG KIN KIAT",
+                    "nameSpell": "NG KIN KIAT",
+                    "code": "HQ083",
+                    "corporationId": "ebQ6m57V1Q0I00",
+                    "userId": "O6ReczkVVroiE",
+                    "id": "ebQ6m57V1Q0I00:162319175543",
+                    "avatar": "https://static-legacy.dingtalk.com/media/lADPD3W5JsEtGRHNAbDNAbA_432_432.jpg",
+                    "email": "kkng@keruyun.com",
+                    "cellphone": null,
+                    "note": null,
+                    "departments": [
+                        "ebQ6m57V1Q0I00:148134825",
+                        "ebQ6m57V1Q0I00:6394852"
+                    ],
+                    "defaultDepartment": "ebQ6m57V1Q0I00:6394852",
+                    "external": false,
+                    "order": {
+                        "ebQ6m57V1Q0I00:82470049": "9043356894480357847"
+                    }
+                },
+                "count": 1,
+                "type": "PERSON"
+            }
+        },
+        {
+            "flow": {
+                "id": "tLkbd_rY742Q00",
+                "state": "approving",
+                "payingFailure": false
+            },
+            "form": {
+                "title": "付款180,000元，同城公司域名备案注册代理费 第二笔款",
+                "type": "loan",
+                "amount": {
+                    "standard": "180000",
+                    "standardUnit": "元",
+                    "standardScale": 2,
+                    "standardSymbol": "¥",
+                    "standardNumCode": "156",
+                    "standardStrCode": "CNY"
+                },
+                "specification": {
+                    "id": "wY09I7CTTUjE00:bfb4cd5c69be29565b5dbb0a88c3106992fed03c",
+                    "pri": 1,
+                    "code": "",
+                    "icon": "#EDico-pack",
+                    "name": "无发票付款",
+                    "type": "loan",
+                    "color": "#00838f",
+                    "rules": [],
+                    "active": true,
+                    "configs": [
+                        {
+                            "ability": "erpVoucher",
+                            "voucherNo": "",
+                            "voucherStatus": "",
+                            "voucherCreateTime": 0
+                        },
+                        {
+                            "ability": "flow",
+                            "flowPlanConfigId": "uIAaojOCeweE00"
+                        },
+                        {
+                            "ability": "print",
+                            "isPrintInvoice": false,
+                            "printTemplateId": "x-46pJ1Z9UlE00"
+                        },
+                        {
+                            "ability": "loan",
+                            "isLimitRepaymentDate": false
+                        },
+                        {
+                            "ability": "pay",
+                            "payMoney": "loanMoney",
+                            "moneyOnly": false,
+                            "detailsOnly": false,
+                            "isRequirePayeeInfo": true,
+                            "allowMultiplePayees": false
+                        }
+                    ],
+                    "version": 1,
+                    "editorId": "ebQ6m57V1Q0I00:maoting_cd@keruyun.com",
+                    "nameSpell": "WUFAPIAOFUKUAN",
+                    "components": [
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "1.无票类付款，需提供无票预付单、合同或结算协议等费用证明材料，扫描后上传附件；",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "2.付款日：每周二、每周五，如遇法定节假日，将顺延至下个付款日；",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "3.付款条件：付款审批流程周一24:00前到达出纳审批节点，周二安排付款。付款审批流程周四24:00前到达出纳审批节点，周五安排付款。 \n",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": false,
+                            "type": "text",
+                            "field": "title",
+                            "label": "事由",
+                            "editable": true,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "maxLength": 30,
+                            "minLength": 0,
+                            "placeholder": "请输入事由（30字以内）",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "textarea",
+                            "field": "description",
+                            "label": "费用说明",
+                            "editable": true,
+                            "optional": true,
+                            "priority": null,
+                            "maxLength": 1000,
+                            "minLength": 0,
+                            "placeholder": "请输入描述",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_付款类型",
+                            "label": "付款类型",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择付款类型",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false
+                        },
+                        {
+                            "url": "https://notes.dingtalk.com/doc/1nRzl3EdrPYPxGbx?orgId=2355122",
+                            "type": "annotation",
+                            "label": "点击查看，付款类型详细说明",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_无票预付类型",
+                            "label": "无票预付类型",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择无票预付类型",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false
+                        },
+                        {
+                            "max": "1000000000.00",
+                            "min": "0.01",
+                            "hide": false,
+                            "type": "money",
+                            "field": "loanMoney",
+                            "label": "申请金额",
+                            "editable": true,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "hiddenRate": false,
+                            "placeholder": "请输入申请金额",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "isShowThousandsSeparator": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "expenseDepartment",
+                            "label": "费用承担部门",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": true,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择费用承担部门",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "submit.department"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "法人实体",
+                            "label": "付款公司",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择付款公司",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "收款信息请新建银行卡账号，目前不支持支付宝支付！！！",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": false,
+                            "type": "payeeInfo",
+                            "field": "payeeId",
+                            "label": "收款信息（收款人、银行卡号、开户行）",
+                            "editable": true,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择收款信息",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "entity.default"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "type": "separator",
+                            "label": "",
+                            "showInDetails": false
+                        },
+                        {
+                            "type": "attachments",
+                            "field": "attachments",
+                            "label": "附件（需上传采购申请单pdf文件）",
+                            "editable": true,
+                            "optional": false,
+                            "placeholder": null,
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "在采购申请单单据页面点击打印可进行下载",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "如上传EXCEL，需注意表格空行过多可能会导致文件无法预览（注意去除网格线会导致空白行）",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": false,
+                            "type": "dataLink",
+                            "field": "u_关联采购申请",
+                            "label": "关联采购",
+                            "editable": true,
+                            "filterId": null,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "placeholder": "请选择关联采购申请",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "referenceData": "c5eb09b89ddca742e000",
+                            "showInDetails": false,
+                            "assignmentRule": null,
+                            "isLinkageAssignment": false
+                        },
+                        {
+                            "type": "separator",
+                            "label": "",
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "submitterId",
+                            "label": "申请人",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择提交人",
+                            "selectRange": "leaf",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "submitter"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "loanDepartment",
+                            "label": "申请部门",
+                            "editable": false,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择借款部门",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "submit.department"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "date",
+                            "field": "loanDate",
+                            "label": "申请日期",
+                            "editable": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "withTime": false,
+                            "placeholder": null,
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "firstSubmit.date"
+                            },
+                            "showInDetails": false
+                        }
+                    ],
+                    "createTime": 1589006519353,
+                    "originalId": "wY09I7CTTUjE00",
+                    "updateTime": 1589006519353,
+                    "corporationId": "ebQ6m57V1Q0I00",
+                    "specificationGroupId": "9eYavl7WjInU00"
+                },
+                "submitDate": 1594013091406,
+                "code": "J20000509"
+            },
+            "plan": {
+                "type": "NOMAL",
+                "urgent": false
+            },
+            "operator": {
+                "staff": {
+                    "version": 163,
+                    "active": true,
+                    "createTime": 1511768204366,
+                    "updateTime": 1592965466091,
+                    "name": "NG KIN KIAT",
+                    "nameSpell": "NG KIN KIAT",
+                    "code": "HQ083",
+                    "corporationId": "ebQ6m57V1Q0I00",
+                    "userId": "O6ReczkVVroiE",
+                    "id": "ebQ6m57V1Q0I00:162319175543",
+                    "avatar": "https://static-legacy.dingtalk.com/media/lADPD3W5JsEtGRHNAbDNAbA_432_432.jpg",
+                    "email": "kkng@keruyun.com",
+                    "cellphone": null,
+                    "note": null,
+                    "departments": [
+                        "ebQ6m57V1Q0I00:148134825",
+                        "ebQ6m57V1Q0I00:6394852"
+                    ],
+                    "defaultDepartment": "ebQ6m57V1Q0I00:6394852",
+                    "external": false,
+                    "order": {
+                        "ebQ6m57V1Q0I00:82470049": "9043356894480357847"
+                    }
+                },
+                "count": 1,
+                "type": "PERSON"
+            }
+        },
+        {
+            "flow": {
+                "id": "D4kbd2xb6chM00",
+                "state": "approving",
+                "payingFailure": false
+            },
+            "form": {
+                "title": "采购申请， 2,390,594元，7月外设采购计划-2",
+                "type": "requisition",
+                "amount": {
+                    "standard": "2390594.00",
+                    "standardUnit": "元",
+                    "standardScale": "2",
+                    "standardSymbol": "¥",
+                    "standardNumCode": "156",
+                    "standardStrCode": "CNY"
+                },
+                "specification": {
+                    "id": "IDY9K5Y8xwbo00:e377a26ff77eaf41e81cd3389f950b0ee6ef16ed",
+                    "pri": 0,
+                    "code": "",
+                    "icon": "#EDico-briefcase",
+                    "name": "采购申请单",
+                    "type": "requisition",
+                    "color": "#1e88e5",
+                    "rules": [],
+                    "active": true,
+                    "configs": [
+                        {
+                            "ability": "erpVoucher",
+                            "voucherNo": "",
+                            "voucherStatus": "",
+                            "voucherCreateTime": 0
+                        },
+                        {
+                            "ability": "flow",
+                            "flowPlanConfigId": "FsYanGvZuwpY00"
+                        },
+                        {
+                            "ability": "print",
+                            "isPrintInvoice": false,
+                            "printTemplateId": "CpU6pJ1Z9UlI00"
+                        },
+                        {
+                            "ability": "requisition",
+                            "feeType": {
+                                "ids": [
+                                    "lDk6xb4uyYbc00",
+                                    "6Y8aX9VzfAno00",
+                                    "4p09T6FjD8nw00",
+                                    "BZI9T6FjD8ns00",
+                                    "WUk9T6FjD8o400",
+                                    "00U9T6FjD8nY00",
+                                    "vqI9T6FjD8nA00",
+                                    "gUM9T6FjD8nU00",
+                                    "5gU9T6TySk8U00",
+                                    "1xQ9T6TySk8Q00",
+                                    "OVw9T6TySk9400",
+                                    "D7oaXaOc6Qog00",
+                                    "khQaXaPeKMnY00",
+                                    "QAs9T6TySk8M00",
+                                    "mFA9T6TySk8Y00",
+                                    "Lt4aXaOc6Qoc00",
+                                    "ynE9T70DN4eQ00",
+                                    "mkwaXaOc6Qo800"
+                                ],
+                                "isAll": false
+                            },
+                            "tripType": {
+                                "ids": [],
+                                "isAll": true
+                            },
+                            "applyRule": {
+                                "rule": "defaultRule",
+                                "notOverIsChecked": false
+                            },
+                            "applyCloseRule": "auto",
+                            "applyContentRule": "auto",
+                            "linkRequisitionInfo": true,
+                            "linkRequisitionControlled": {
+                                "count": 0,
+                                "value": false
+                            }
+                        }
+                    ],
+                    "version": 1,
+                    "editorId": "ebQ6m57V1Q0I00:maoting_cd@keruyun.com",
+                    "nameSpell": "CAIGOUSHENQINGDAN",
+                    "components": [
+                        {
+                            "hide": false,
+                            "type": "text",
+                            "field": "title",
+                            "label": "事由",
+                            "editable": true,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "maxLength": 30,
+                            "minLength": 0,
+                            "placeholder": "请输入事由（30字以内）",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "textarea",
+                            "field": "description",
+                            "label": "详细说明",
+                            "editable": true,
+                            "optional": true,
+                            "priority": null,
+                            "maxLength": 1000,
+                            "minLength": 0,
+                            "placeholder": "请输入描述",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_采购用途",
+                            "label": "采购类型",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择采购类型",
+                            "selectRange": "leaf",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_行政科目",
+                            "label": "行政科目",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": {
+                                "use": true,
+                                "direction": "forward",
+                                "roleDefId": "incaLBEnRc5E00",
+                                "dependenceId": "u_采购用途"
+                            },
+                            "placeholder": "请选择行政科目",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "url": "https://notes.dingtalk.com/doc/1nRzl3ENYlE2kGbx?orgId=2355122",
+                            "type": "annotation",
+                            "label": "点击此处，可查看采购类型及费用类型详细说明",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "TIP：需根据采购类型添加对应的费用明细，可添加多条",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": false,
+                            "type": "requisitionDetails",
+                            "field": "details",
+                            "label": "费用明细",
+                            "editable": true,
+                            "optional": false,
+                            "showType": "LIST",
+                            "dependence": {
+                                "use": true,
+                                "direction": "reverse",
+                                "roleDefId": "A7IaXnylWc0g00",
+                                "dependenceId": "u_采购用途"
+                            },
+                            "visibility": null,
+                            "orderByType": null,
+                            "placeholder": null,
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "isFeeTypeEmpty": true,
+                            "feeTypeImportRuleId": "DEFAULT_ID_ebQ6m57V1Q0I00_requisition",
+                            "visibleStaffSelection": null,
+                            "mustAllFeeTypeCurrencyEqual": false
+                        },
+                        {
+                            "type": "attachments",
+                            "field": "attachments",
+                            "label": "附件",
+                            "editable": true,
+                            "optional": true,
+                            "placeholder": null,
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "如上传EXCEL，需注意表格空行过多可能会导致文件无法预览。（注意去除网格线会导致空白行）",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": true,
+                            "type": "dataLink",
+                            "field": "u_关联供应商",
+                            "label": "关联供应商",
+                            "editable": true,
+                            "filterId": null,
+                            "optional": true,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "placeholder": "请选择关联供应商",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "referenceData": "548e09b899ab0dc6c000",
+                            "showInDetails": false,
+                            "assignmentRule": null,
+                            "isLinkageAssignment": false
+                        },
+                        {
+                            "type": "separator",
+                            "label": "",
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_收件人",
+                            "label": "收件人",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": true,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择收件人",
+                            "selectRange": "leaf",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "lastselect"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "text",
+                            "field": "u_手机",
+                            "label": "联系电话",
+                            "editable": true,
+                            "optional": true,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "maxLength": 14,
+                            "minLength": 0,
+                            "placeholder": "请输入手机",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "text",
+                            "field": "u_详细地址",
+                            "label": "收件地址",
+                            "editable": true,
+                            "optional": true,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "maxLength": 1000,
+                            "minLength": 0,
+                            "placeholder": "请输入详细地址",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false
+                        },
+                        {
+                            "type": "separator",
+                            "label": "",
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_待处理人",
+                            "label": "流程参与人（实际发起付款的人）",
+                            "editable": true,
+                            "multiple": true,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "如果由他人发起用章、无票付款流程请选择对应人员（如无请选本人）",
+                            "selectRange": "leaf",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "url": "",
+                            "type": "annotation",
+                            "label": "如需要别人帮你付款\n1、首先需要请将他添加流程参与人中；（集采相关需总部协助购买的，请选择刘金振、林雪萌！！！）\n2、然后等待申请单走完，在申请事项中进行共享或者转交。",
+                            "maxLength": 400,
+                            "showInDetails": false,
+                            "onlyEditVisible": true
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "linkRequisitionInfo",
+                            "label": "补充申请（存在多个申请单需要一同报销时，关联原申请单）",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": true,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择需要补充申请的原采购单",
+                            "selectRange": "leaf",
+                            "defaultValue": {
+                                "type": "none"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "type": "separator",
+                            "label": "",
+                            "showInDetails": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "submitterId",
+                            "label": "申请人",
+                            "editable": true,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择提交人",
+                            "selectRange": "leaf",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "submitter"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "select",
+                            "field": "u_申请部门",
+                            "label": "申请部门",
+                            "editable": false,
+                            "multiple": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "dependence": null,
+                            "placeholder": "请选择申请部门",
+                            "selectRange": "all",
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "submit.department"
+                            },
+                            "showInDetails": false,
+                            "allowExternalStaff": false,
+                            "inheritedFieldDependency": false
+                        },
+                        {
+                            "hide": false,
+                            "type": "date",
+                            "field": "requisitionDate",
+                            "label": "申请日期",
+                            "editable": false,
+                            "optional": false,
+                            "priority": [
+                                {
+                                    "type": "MANUALLY_FILL_IN",
+                                    "value": 5
+                                },
+                                {
+                                    "type": "LINKAGE_ASSIGNMENT",
+                                    "value": 10
+                                },
+                                {
+                                    "type": "AUTOMATIC_CALCULATION",
+                                    "value": 15
+                                },
+                                {
+                                    "type": "COST_STANDARD",
+                                    "value": 20
+                                }
+                            ],
+                            "withTime": false,
+                            "placeholder": null,
+                            "defaultValue": {
+                                "type": "predefine",
+                                "value": "firstSubmit.date"
+                            },
+                            "showInDetails": false
+                        }
+                    ],
+                    "createTime": 1592457632311,
+                    "originalId": "IDY9K5Y8xwbo00",
+                    "updateTime": 1592457632311,
+                    "corporationId": "ebQ6m57V1Q0I00",
+                    "specificationGroupId": "oR8avl8sQE3s00"
+                },
+                "submitDate": 1594007623005,
+                "code": "S20003150"
+            },
+            "plan": {
+                "type": "NOMAL",
+                "urgent": false
+            },
+            "operator": {
+                "staff": {
+                    "version": 163,
+                    "active": true,
+                    "createTime": 1511768204366,
+                    "updateTime": 1592965466091,
+                    "name": "NG KIN KIAT",
+                    "nameSpell": "NG KIN KIAT",
+                    "code": "HQ083",
+                    "corporationId": "ebQ6m57V1Q0I00",
+                    "userId": "O6ReczkVVroiE",
+                    "id": "ebQ6m57V1Q0I00:162319175543",
+                    "avatar": "https://static-legacy.dingtalk.com/media/lADPD3W5JsEtGRHNAbDNAbA_432_432.jpg",
+                    "email": "kkng@keruyun.com",
+                    "cellphone": null,
+                    "note": null,
+                    "departments": [
+                        "ebQ6m57V1Q0I00:148134825",
+                        "ebQ6m57V1Q0I00:6394852"
+                    ],
+                    "defaultDepartment": "ebQ6m57V1Q0I00:6394852",
+                    "external": false,
+                    "order": {
+                        "ebQ6m57V1Q0I00:82470049": "9043356894480357847"
+                    }
+                },
+                "count": 1,
+                "type": "PERSON"
+            }
+        }
+    ]
+}

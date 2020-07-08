@@ -1,0 +1,19 @@
+{
+    "id": "8429919e-62ba-4895-a89b-be0d7abef7c4",
+    "active": false,
+    "flowId": "D4kbd2xb6chM00",
+    "status": "COMPLETED",
+    "version": 2,
+    "createTime": 1593756553766,
+    "updateTime": 1594023295216,
+    "workRecord": {
+        "url": "https://ddenterprise.ekuaibao.com/dingtalk-audit-message?&corpId=dingb8c7fae567297bbc&flowCode=S20003150&source=workrecord&flowId=D4kbd2xb6chM00&flowType=freeflow&nowTime=1593756553409",
+        "flowCode": "S20003150",
+        "flowTitle": "采购申请， 2,390,594元，7月外设采购计划-2",
+        "flowUserId": "liudi01_bj@keruyun.com",
+        "flowSubmitId": "ebQ6m57V1Q0I00:liudi01_bj@keruyun.com",
+        "flowSubmitName": "刘笛"
+    },
+    "corporationId": "ebQ6m57V1Q0I00",
+    "completedState": "agree"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "BNobd2BR-QmU00",
+    "type": "requisition",
+    "logId": 2,
+    "state": "PROCESSED",
+    "active": true,
+    "flowId": "D4kbd2xb6chM00",
+    "ownerId": "ebQ6m57V1Q0I00:0424374825705078",
+    "version": 2,
+    "isUrgent": false,
+    "nodeName": "资料管理员",
+    "createTime": 1593756574937,
+    "updateTime": 1593762930939,
+    "rejectAlert": false,
+    "corporationId": "ebQ6m57V1Q0I00",
+    "rejectEndTime": 0,
+    "remindEndTime": 0,
+    "addCountReport": true,
+    "autoApproveType": "NONE"
+}
+
+{
+    "id": "a3Ebd2x85Qm000",
+    "type": "requisition",
+    "logId": 1,
+    "state": "PROCESSED",
+    "active": true,
+    "flowId": "D4kbd2xb6chM00",
+    "ownerId": "ebot",
+    "version": 2,
+    "isUrgent": false,
+    "nodeName": "费用标准检查",
+    "createTime": 1593756269057,
+    "updateTime": 1593756547192,
+    "rejectAlert": false,
+    "corporationId": "ebQ6m57V1Q0I00",
+    "rejectEndTime": 0,
+    "remindEndTime": 0,
+    "addCountReport": false,
+    "autoApproveType": null
+}
