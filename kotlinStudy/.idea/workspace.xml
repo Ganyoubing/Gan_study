@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a4145a0-4b22-4e64-9f44-7cbf504bcb6c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="KonanWorkspace">
+    <executables />
+  </component>
+  <component name="ProjectId" id="1dRhyRFegy7nG0aOiFkmoHEEV4F" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/tomcat/apache-tomcat-9.0.36-windows-x64/apache-tomcat-9.0.36/webapps/web-reader/WEB-INF/lib/xmlrpc-common-3.1.3.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.ganyoubing.study" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\exile\kotlinStudy\src\com\ekuaibao\invoice" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\exile\kotlinStudy\src\com\ganyoubing\study" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.StartKt">
+    <configuration name="InvoiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ekuaibao.invoice.InvoiceTest" />
+      <module name="kotlinStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ekuaibao.invoice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ofd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ganyoubing.study.ofd" />
+      <module name="kotlinStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ganyoubing.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.ekuaibao.invoice.AppKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.ganyoubing.study.PersonKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlinStudy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.ganyoubing.study.StartKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.StartKt" />
+        <item itemvalue="Kotlin.PersonKt" />
+        <item itemvalue="Application.ofd" />
+        <item itemvalue="Application.InvoiceTest" />
+        <item itemvalue="Kotlin.AppKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a4145a0-4b22-4e64-9f44-7cbf504bcb6c" name="Default Changelist" comment="" />
+      <created>1592394067027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592394067027</updated>
+      <workItem from="1592394068639" duration="4548000" />
+      <workItem from="1592447684810" duration="3315000" />
+      <workItem from="1592462534949" duration="11309000" />
+      <workItem from="1592527934905" duration="14071000" />
+      <workItem from="1592551729301" duration="757000" />
+      <workItem from="1592555841952" duration="2036000" />
+      <workItem from="1592877277637" duration="7803000" />
+      <workItem from="1592963626292" duration="4107000" />
+      <workItem from="1593307501464" duration="1231000" />
+      <workItem from="1593392498091" duration="2305000" />
+      <workItem from="1593397485139" duration="86000" />
+      <workItem from="1593397599306" duration="3002000" />
+      <workItem from="1593418400530" duration="126000" />
+      <workItem from="1593420441620" duration="1753000" />
+      <workItem from="1593486218230" duration="1209000" />
+      <workItem from="1593565063741" duration="1951000" />
+      <workItem from="1593597384555" duration="4940000" />
+      <workItem from="1593650929828" duration="875000" />
+      <workItem from="1594195724763" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1592394074609">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1592394074609" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592465737810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1592465737810" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1593430249568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1593430249568" />
+    <state x="548" y="58" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1592464610410">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="58" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1592464610410" />
+    <state x="-694" y="-446" key="FileChooserDialogImpl" timestamp="1593415682954">
+      <screen x="-1080" y="-829" width="1080" height="1880" />
+    </state>
+    <state x="-694" y="-446" key="FileChooserDialogImpl/0.0.1536.824/-1080.-829.1080.1880@-1080.-829.1080.1880" timestamp="1593415682954" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1593405949980" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1593608822355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1593608822355" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593602327034" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1593608822355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1593608822355" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593602327034" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1593608822355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1593608822355" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593602327034" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1593608822355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1593608822355" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593602327034" />
+    <state width="1493" height="319" key="GridCell.Tab.1.bottom" timestamp="1593608822352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="319" key="GridCell.Tab.1.bottom/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1593608822352" />
+    <state width="1493" height="319" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593600297590" />
+    <state width="1493" height="319" key="GridCell.Tab.1.center" timestamp="1593608822352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="319" key="GridCell.Tab.1.center/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1593608822352" />
+    <state width="1493" height="319" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593600297589" />
+    <state width="1493" height="319" key="GridCell.Tab.1.left" timestamp="1593608822352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="319" key="GridCell.Tab.1.left/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1593608822352" />
+    <state width="1493" height="319" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593600297589" />
+    <state width="1493" height="319" key="GridCell.Tab.1.right" timestamp="1593608822352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="319" key="GridCell.Tab.1.right/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1593608822352" />
+    <state width="1493" height="319" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593600297590" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1593599051938">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1040" y="-829" key="SettingsEditor/0.0.1536.824/-1080.-829.1080.1880@-1080.-829.1080.1880" timestamp="1593415689158" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1593415732661" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593599051938" />
+    <state x="-1080" y="-99" width="1096" height="810" maximized="true" key="dock-window-1" timestamp="1593420502503">
+      <screen x="-1080" y="-829" width="1080" height="1880" />
+    </state>
+    <state x="-1080" y="-99" width="1096" height="810" maximized="true" key="dock-window-1/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1593420502503" />
+    <state x="178" y="23" key="new project wizard" timestamp="1592449489007">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="23" key="new project wizard/0.0.1536.824/-1080.-829.1080.1880@0.0.1536.824" timestamp="1592449489007" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1593599527850">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593599527850" />
+  </component>
+</project>
